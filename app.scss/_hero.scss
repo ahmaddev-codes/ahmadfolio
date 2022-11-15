@@ -1,0 +1,159 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 60px;
+  padding-right: 35px;
+  padding-left: 35px;
+
+  @include breakpoint-up(large){
+    flex-direction: row;
+    padding-top: 102px;
+    padding-right: 280px;
+    padding-left: 115px;
+  }
+
+  &_texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    @include breakpoint-up(large){
+      align-items: flex-start !important;
+      padding-right: 4rem;
+    }
+
+    &_heading {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+
+      @include breakpoint-up(large){
+        align-items: flex-start;
+      }
+      
+      p {
+        font-size: 14px;
+        font-family: 'Hagrid Trial', sans-serif;
+        margin-bottom: 0;
+
+        @include breakpoint-up(large){
+          font-size: 24px !important;
+          margin-bottom: 6px;
+        }
+      }
+
+      h2 {
+        font-size: 20px;
+        font-weight: 400;
+        font-family: 'Hagrid Trial', sans-serif;
+        margin-top: 0;
+
+        @include breakpoint-up(large){
+          font-size: 48px;
+        }
+      }
+    }
+
+    p {
+      font-size: 12px;
+      font-weight: 400;
+      text-align: center;
+      line-height: 20px;
+
+      @include breakpoint-up(large){
+        text-align: left;
+        font-size: 20px;
+        line-height: 37px;
+      }
+    }
+
+    &_button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 12px;
+      padding: 4px 10px;
+      width: 110px;
+      height: 35px;
+      background: $green;
+      color: $white;
+      border-radius: 50px;
+      gap: 10px;
+      cursor: pointer;
+      transition: opacity 200ms ease-in-out;
+
+      &:hover {
+        opacity: 0.8;
+      }
+
+      @include breakpoint-up(large){
+        width: 160px;
+        height: 55px;
+      }
+
+      img {
+        width: 12px;
+        height: 12px;
+
+        @include breakpoint-up(large){
+          width: 24px;
+          height: 24px;
+        }
+      }
+
+      p {
+        font-weight: 500;
+        font-size: 10px;
+
+        @include breakpoint-up(large){
+          font-weight: 600;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  &_image {
+
+    img {
+
+      @include breakpoint-up(large){
+        width: 250px;
+        height: 280px;
+      }
+      
+      @include breakpoint-down(medium){
+        display: none;
+      }
+    }
+  }
+}
+
+.google img {
+  width: 45px;
+  height: 15px;
+  margin-bottom: -5px;
+
+  @include breakpoint-up(large){
+    width: 90px;
+    height: 30px;
+    margin-bottom: -8px;
+  }
+}
+
+.meta img {
+  width: 45px;
+  height: 15px;
+  margin-bottom: -4px;
+
+  @include breakpoint-up(large){
+    width: 90px;
+    height: 30px;
+    margin-bottom: -8px;
+  }
+}
+
