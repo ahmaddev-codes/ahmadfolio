@@ -1067,7 +1067,6 @@ button:hover {
 @media (min-width: 64em) {
   .blogs_main_text {
     align-items: flex-start;
-    height: 100%;
   }
 }
 .blogs_main_text_head {
