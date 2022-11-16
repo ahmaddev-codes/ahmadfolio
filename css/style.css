@@ -510,12 +510,12 @@ button:hover {
   background: #0e100d;
   padding-right: 18px;
   padding-left: 10px;
+  width: 100%;
   gap: 20px;
 }
 @media (min-width: 64em) {
   .divider {
     gap: 50px;
-    width: 100%;
     height: 90px;
     padding-right: 30px;
     padding-left: 20px;
@@ -1054,7 +1054,7 @@ button:hover {
   }
 }
 .blogs_main img {
-  width: 332px;
+  width: 334px;
   height: 196px;
   border-radius: 5px;
 }
