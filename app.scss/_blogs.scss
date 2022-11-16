@@ -1,0 +1,253 @@
+.blogs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-right: 18px;
+  padding-left: 18px;
+
+  @include breakpoint-up(large){
+    padding-top: 200px;
+    padding-right: 115px;
+    padding-left: 115px;
+  }
+
+  h2 {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Hagrid Trial', sans-serif;
+    color: $yellow;
+
+    @include breakpoint-up(large){
+      font-size: 48px;
+    }
+  }
+
+  h3 {
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Hagrid Trial';
+
+        @include breakpoint-up(large){
+          font-size: 28px;
+        }
+      }
+
+  &_main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    @include breakpoint-up(large){
+      flex-direction: row;
+      gap: 70px;
+    }
+
+    img {
+      width: 346px;
+      height: 196px;
+      border-radius: 5px;
+      
+      @include breakpoint-up(large){
+        width: 600px;
+        height: 450px;
+      }
+    }
+
+    &_text {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+
+      @include breakpoint-up(large){
+        align-items: flex-start;
+        height: 100%;
+      }
+
+      &_head {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 10px;
+
+        @include breakpoint-up(large){
+          margin-top: -1rem;
+        }
+
+        h4 {
+          font-size: 12px;
+          font-weight: 500;
+
+          @include breakpoint-up(large){
+            font-size: 16px;
+          }
+        }
+
+        div {
+          width: 4px;
+          height: 4px;
+          border-radius: 10px;
+          background-color: $white;
+
+          @include breakpoint-up(large){
+            width: 5px;
+            height: 5px;
+          }
+        }
+
+        p {
+          font-weight: 400;
+          font-size: 10px;
+
+          @include breakpoint-up(large){
+            font-size: 16px;
+          }
+        }
+      }
+
+      h3 {
+        font-weight: 500;
+        font-size: 18px;
+        font-family: 'poppins', sans-serif ;
+        line-height: 26px;
+        margin: 0;
+
+        @include breakpoint-up(large){
+          font-size: 32px;
+          line-height: 45px;
+        }
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: justify;
+
+        @include breakpoint-up(large){
+          font-size: 18px;
+          line-height: 27px;
+        }
+      }
+
+      &_footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+
+        @include breakpoint-up(large){
+          margin-top: 15px;
+        }
+
+        &_author {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+          gap: 15px;
+
+          @include breakpoint-up(large){
+            gap: 25px;
+          }
+
+          img {
+            width: 30px;
+            height: 30px;
+            border-radius: 50px;
+
+            @include breakpoint-up(large){
+              width: 50px;
+              height: 50px;
+            }
+          }
+
+          &_text {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-between;
+
+            p:first-child {
+              font-weight: 500;
+              font-size: 10px;
+              margin: 0;
+
+              @include breakpoint-up(large){
+                font-size: 16px;
+              }
+            }
+
+            p:last-child {
+              font-weight: 400;
+              font-size: 8px;
+              margin: 0;
+
+              @include breakpoint-up(large){
+                font-size: 14px;
+              }
+            }
+          }
+        }
+
+        a {
+
+          button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            width: 110px;
+            height: 26px;
+            background: $green;
+            color: $white;
+            border-radius: 50px;
+            margin-top: 0.5rem;
+    
+            @include breakpoint-up(large){
+              width: 180px;
+              height: 50px;
+              font-weight: 600;
+            }
+    
+            img {
+              width: 13px;
+              height: 13px;
+    
+              @include breakpoint-up(large){
+                width: 24px;
+                height: 24px;
+                margin-right: 0.5rem;
+              }
+            }
+    
+            p {
+              font-size: 10px;
+              font-weight: 500;
+    
+              @include breakpoint-up(large){
+                font-size: 16px;
+                line-height: 24px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+@include breakpoint-up(large){
+
+}
+
+@include breakpoint-down(medium){
+
+}
