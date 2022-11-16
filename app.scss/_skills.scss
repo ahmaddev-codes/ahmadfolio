@@ -181,11 +181,11 @@
   background: $lightBlack;
   padding-right: 18px;
   padding-left: 10px;
+  width: 100%;
   gap: 20px;
 
   @include breakpoint-up(large){
     gap: 50px;
-    width: 100%;
     height: 90px; 
     padding-right: 30px;
     padding-left: 20px;
