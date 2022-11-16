@@ -21,6 +21,9 @@ button {
   border: none;
   cursor: pointer;
 }
+button:hover {
+  opacity: 0.8;
+}
 
 .header_nav {
   display: flex;
@@ -459,7 +462,7 @@ button {
   align-items: center;
   justify-content: center;
   gap: 5px;
-  width: 100px;
+  width: 110px;
   height: 26px;
   background: #00BA00;
   color: #FFFFFF;
@@ -687,7 +690,7 @@ button {
   align-items: center;
   justify-content: center;
   gap: 5px;
-  width: 100px;
+  width: 110px;
   height: 26px;
   background: #00BA00;
   color: #FFFFFF;
