@@ -9,6 +9,7 @@ body {
   color: #FFFFFF;
   background-color: #000000;
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
 a, a:active, a:visited {
