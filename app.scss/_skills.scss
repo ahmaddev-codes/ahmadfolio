@@ -144,16 +144,17 @@
             width: 180px;
             height: 50px;
             font-weight: 600;
+            gap: 10px;
           }
 
           img {
             width: 13px;
             height: 13px;
+            margin-right: 0;
 
             @include breakpoint-up(large){
               width: 24px;
               height: 24px;
-              margin-right: 0.5rem;
             }
           }
 
@@ -268,11 +269,11 @@
   img {
     width: 180px;
     height: 125px;
+    margin-right: 0;
 
     @include breakpoint-up(large){
       width: 436px;
       height: 311px;
-      margin-right: 5rem;
     }
   }
 
@@ -374,6 +375,7 @@
           width: 180px;
           height: 50px;
           font-weight: 600;
+          gap: 10px;
         }
 
         img {
@@ -383,7 +385,6 @@
           @include breakpoint-up(large){
             width: 24px;
             height: 24px;
-            margin-right: 0.5rem;
           }
         }
 

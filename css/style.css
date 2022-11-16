@@ -474,17 +474,18 @@ button:hover {
     width: 180px;
     height: 50px;
     font-weight: 600;
+    gap: 10px;
   }
 }
 .skills_web_text_content button img {
   width: 13px;
   height: 13px;
+  margin-right: 0;
 }
 @media (min-width: 64em) {
   .skills_web_text_content button img {
     width: 24px;
     height: 24px;
-    margin-right: 0.5rem;
   }
 }
 .skills_web_text_content button p {
@@ -595,12 +596,12 @@ button:hover {
 .UX img {
   width: 180px;
   height: 125px;
+  margin-right: 0;
 }
 @media (min-width: 64em) {
   .UX img {
     width: 436px;
     height: 311px;
-    margin-right: 5rem;
   }
 }
 .UX_text {
@@ -702,6 +703,7 @@ button:hover {
     width: 180px;
     height: 50px;
     font-weight: 600;
+    gap: 10px;
   }
 }
 .UX_text_content button img {
@@ -712,7 +714,6 @@ button:hover {
   .UX_text_content button img {
     width: 24px;
     height: 24px;
-    margin-right: 0.5rem;
   }
 }
 .UX_text_content button p {
