@@ -880,6 +880,7 @@ button:hover {
 @media (min-width: 64em) {
   .project_list_details_text h3 {
     font-size: 28px;
+    margin-top: 0;
   }
 }
 .project_list_details_text p {
@@ -1054,7 +1055,7 @@ button:hover {
 }
 @media (min-width: 64em) {
   .blogs_main img {
-    width: 600px;
+    width: 550px;
     height: 450px;
   }
 }
