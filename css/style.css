@@ -70,11 +70,13 @@ button:hover {
 .header_nav_logoLink a img {
   width: 30px;
   height: 30px;
+  margin-left: 3.5rem;
 }
 @media (min-width: 64em) {
   .header_nav_logoLink a img {
     width: 50px;
     height: 50px;
+    margin-left: 0;
   }
 }
 .header_nav_logoLink_link {
@@ -1052,7 +1054,7 @@ button:hover {
   }
 }
 .blogs_main img {
-  width: 334px;
+  width: 335px;
   height: 196px;
   border-radius: 5px;
 }
@@ -1308,7 +1310,7 @@ button:hover {
   justify-content: space-between;
 }
 .blogs_sub_details_text img {
-  width: 160px;
+  width: 156px;
   height: 90px;
   border-radius: 3px;
   margin-bottom: 1rem;
