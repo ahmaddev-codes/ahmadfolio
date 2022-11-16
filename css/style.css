@@ -9,6 +9,7 @@ body {
   color: #FFFFFF;
   background-color: #000000;
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
 a, a:active, a:visited {
@@ -29,7 +30,7 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 50px;
+  padding-top: 18px;
   padding-right: 18px;
   padding-left: 18px;
 }
@@ -474,17 +475,18 @@ button:hover {
     width: 180px;
     height: 50px;
     font-weight: 600;
+    gap: 10px;
   }
 }
 .skills_web_text_content button img {
   width: 13px;
   height: 13px;
+  margin-right: 0;
 }
 @media (min-width: 64em) {
   .skills_web_text_content button img {
     width: 24px;
     height: 24px;
-    margin-right: 0.5rem;
   }
 }
 .skills_web_text_content button p {
@@ -510,23 +512,11 @@ button:hover {
 }
 @media (min-width: 64em) {
   .divider {
-    justify-content: flex-start;
     gap: 50px;
     width: 100%;
     height: 90px;
     padding-right: 30px;
     padding-left: 20px;
-  }
-}
-.divider h4 {
-  font-family: "Hagrid Trial";
-  font-size: 6px;
-  color: #3A3A3A;
-  transform: rotate(-90deg);
-}
-@media (min-width: 64em) {
-  .divider h4 {
-    font-size: 20px;
   }
 }
 .divider_tool {
@@ -538,7 +528,7 @@ button:hover {
 }
 @media (min-width: 64em) {
   .divider_tool {
-    gap: 40px;
+    gap: 100px;
   }
 }
 .divider_tool_list {
@@ -595,12 +585,12 @@ button:hover {
 .UX img {
   width: 180px;
   height: 125px;
+  margin-right: 0;
 }
 @media (min-width: 64em) {
   .UX img {
     width: 436px;
     height: 311px;
-    margin-right: 5rem;
   }
 }
 .UX_text {
@@ -702,6 +692,7 @@ button:hover {
     width: 180px;
     height: 50px;
     font-weight: 600;
+    gap: 10px;
   }
 }
 .UX_text_content button img {
@@ -712,7 +703,6 @@ button:hover {
   .UX_text_content button img {
     width: 24px;
     height: 24px;
-    margin-right: 0.5rem;
   }
 }
 .UX_text_content button p {
@@ -726,18 +716,6 @@ button:hover {
   }
 }
 
-.divider_tool {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  gap: 18px;
-}
-@media (min-width: 64em) {
-  .divider_tool {
-    gap: 40px;
-  }
-}
 .divider_tool_UX {
   display: flex;
   flex-direction: row;
@@ -751,8 +729,8 @@ button:hover {
   }
 }
 .divider_tool_UX img {
-  width: 14px;
-  height: 10px;
+  width: 12px;
+  height: 8px;
   cursor: pointer;
 }
 @media (min-width: 64em) {
@@ -902,6 +880,7 @@ button:hover {
 @media (min-width: 64em) {
   .project_list_details_text h3 {
     font-size: 28px;
+    margin-top: 0;
   }
 }
 .project_list_details_text p {
@@ -1076,7 +1055,7 @@ button:hover {
 }
 @media (min-width: 64em) {
   .blogs_main img {
-    width: 600px;
+    width: 550px;
     height: 450px;
   }
 }
@@ -1089,7 +1068,6 @@ button:hover {
 @media (min-width: 64em) {
   .blogs_main_text {
     align-items: flex-start;
-    height: 100%;
   }
 }
 .blogs_main_text_head {

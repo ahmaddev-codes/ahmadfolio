@@ -144,16 +144,17 @@
             width: 180px;
             height: 50px;
             font-weight: 600;
+            gap: 10px;
           }
 
           img {
             width: 13px;
             height: 13px;
+            margin-right: 0;
 
             @include breakpoint-up(large){
               width: 24px;
               height: 24px;
-              margin-right: 0.5rem;
             }
           }
 
@@ -183,23 +184,11 @@
   gap: 20px;
 
   @include breakpoint-up(large){
-    justify-content: flex-start;
     gap: 50px;
     width: 100%;
     height: 90px; 
     padding-right: 30px;
     padding-left: 20px;
-  }
-
-  h4 {
-    font-family: 'Hagrid Trial';
-    font-size: 6px;
-    color: $veryLightBlack;
-    transform: rotate(-90deg);
-
-    @include breakpoint-up(large){
-      font-size: 20px;
-    }
   }
 
   &_tool {
@@ -210,7 +199,7 @@
     gap: 18px;
 
     @include breakpoint-up(large){
-      gap: 40px;
+      gap: 100px;
     }
 
     &_list {
@@ -268,11 +257,11 @@
   img {
     width: 180px;
     height: 125px;
+    margin-right: 0;
 
     @include breakpoint-up(large){
       width: 436px;
       height: 311px;
-      margin-right: 5rem;
     }
   }
 
@@ -374,6 +363,7 @@
           width: 180px;
           height: 50px;
           font-weight: 600;
+          gap: 10px;
         }
 
         img {
@@ -383,7 +373,6 @@
           @include breakpoint-up(large){
             width: 24px;
             height: 24px;
-            margin-right: 0.5rem;
           }
         }
 
@@ -403,16 +392,7 @@
 
 
 .divider_tool {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  gap: 18px;
-
-  @include breakpoint-up(large){
-    gap: 40px;
-  }
-
+  
   &_UX {
     display: flex;
     flex-direction: row;
@@ -425,8 +405,8 @@
     }
   
     img {
-      width: 14px;
-      height: 10px;
+      width: 12px;
+      height: 8px;
       cursor: pointer;
       
       @include breakpoint-up(large){
