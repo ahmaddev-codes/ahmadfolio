@@ -77,8 +77,7 @@ button:hover {
   padding-left: 6rem;
   width: 60vw;
   height: 100vh;
-  background-color: rgba(14, 16, 13, 0.5647058824);
-  backdrop-filter: blur(18px);
+  background-color: #0e100d;
   top: 0;
   left: -100%;
   right: 0;
