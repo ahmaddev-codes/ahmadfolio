@@ -60,6 +60,7 @@ button:hover {
   background-color: #FFFFFF;
   border-radius: 1rem;
   transform-origin: 4.5px 1.5px;
+  transition: all 300ms ease-in-out;
 }
 .header_menu > span:first-child {
   margin-bottom: 5px;
@@ -84,6 +85,7 @@ button:hover {
   overflow-y: hidden;
   z-index: 1;
   gap: 40px;
+  transition: all 300ms ease-in-out;
 }
 @media (min-width: 64em) {
   .header_mobile_menu {
