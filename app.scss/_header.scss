@@ -152,6 +152,7 @@
     z-index: 1;
 
     @include breakpoint-up(large){
+      position: sticky;
       padding-top: 36px;
       padding-right: 100px;
       padding-left: 126px;

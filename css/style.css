@@ -160,6 +160,7 @@ button:hover {
 }
 @media (min-width: 64em) {
   .header_nav {
+    position: sticky;
     padding-top: 36px;
     padding-right: 100px;
     padding-left: 126px;
